@@ -1,0 +1,1 @@
+BotLogic AI is an innovative project focused on AI-powered hardware diagnostics and autonomous PC repair. Designed for real-time monitoring of systems like Intel i7 and RX 590, it bridges the gap between software intelligence and hardware maintenance. Developed by an ICS student to explore the future of robotics and automated troubleshooting."
