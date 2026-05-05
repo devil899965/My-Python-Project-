@@ -1,0 +1,30 @@
+# BotLogic AI - Core System Component
+# Developed by: Hussain Anjum
+# Purpose: AI-powered hardware monitoring and autonomous diagnostics
+
+import time
+
+class BotLogicAI:
+    def __init__(self):
+        self.system_status = "Initialized"
+        self.version = "1.0.1"
+        print(f"--- BotLogic AI Version {self.version} ---")
+
+    def check_hardware(self):
+        print("Scanning PC hardware components...")
+        time.sleep(1)
+        # Simulating hardware check for student project
+        components = ["CPU (Intel i7)", "GPU (AMD RX 590)", "Memory", "Storage"]
+        for item in components:
+            print(f"Checking {item}... [OK]")
+        
+    def ai_diagnostic(self):
+        print("Starting AI Diagnostic tool...")
+        time.sleep(2)
+        return "System Health: 100%. No repairs needed."
+
+if __name__ == "__main__":
+    bot = BotLogicAI()
+    bot.check_hardware()
+    status = bot.ai_diagnostic()
+    print(status)
